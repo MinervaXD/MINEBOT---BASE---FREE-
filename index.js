@@ -22,14 +22,14 @@ if (await isOnline()) {
 const { say } = cfonts
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname)
-const { name, author, version } = require(join(__dirname, './package.json'))
+const { name, author, version, repository } = require(join(__dirname, './package.json'))
 
 await say(`+== ${name} ==+`, {
   font: 'chrome',
   align: 'center',
   gradient: ["yellow", 'blue']
 })
-await say(`Version: ${version}\n\nCreator: ${author.name}\n\nGithub: ${author.github}\n\nwarn: script ini gratis, harap jangan dijual`, {
+await say(`Version: ${version}\n\nCreator: ${author.name}\n\nGithub: ${author.github}\n\nRepository: ${repository.url}\n\nWarn: script ini gratis, harap jangan dijual`, {
   font: 'console',
   align: 'center',
   gradient: ["yellow", 'blue']

@@ -100,8 +100,6 @@ export async function handler(conn, message) {
         const lowerCommand = command.toLowerCase()
         const usedPrefix = global.bot.prefix
         const argText = args.join(' ')
-        const isOwner = null
-        const isAdmin = null
     
         for (const name in global.plugins) {
             const plugin = global.plugins[name]
