@@ -1,0 +1,35 @@
+{
+  "name": "minebot",
+  "version": "0.1.0",
+  "description": "Basic Whatsapp Bot With Baileys",
+  "keywords": [
+    "whatsapp",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "license": "CC BY-NC-SA 4.0",
+  "author": {
+    "name": "Minerva",
+    "github": "https://github.com/MinervaXD"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js",
+    "run": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "baileys": "npm:@itsliaaa/baileys",
+    "cfonts": "^3.3.1",
+    "chalk": "^6.0.1",
+    "is-online": "^12.0.2",
+    "pino": "^10.4.0",
+    "qr": "^0.7.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
